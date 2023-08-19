@@ -7,7 +7,9 @@ The main objective of this experiment is to find the convolution of the input se
 ### Theory:
 Convolution is a mathematical way of combining two signals to form a third signal. It is the single most important technique in Digital Signal Processing. Using the strategy of impulse decomposition, systems are described by a signal called the impulse response. Convolution is important because it relates the three signals of interest: the input signal, the output signal, and the impulse response.
 The convolution formula is
-		              y(n)=∑_(k=1)^n▒x(k) ×h(n-k)
+<br>
+<br>
+		              y(n)=x(k) ×h(n-k)
 ### Steps:
 Step 1: Constructing input sequence X(n) & input response H(n) function.
 <br>
@@ -51,7 +53,7 @@ title(' y(n) ');
 ```
 
 
-### Output 1
+### Output:
 <img width="400" alt="Output1" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2001/convolution.png">
 
 ### Discussion: 
