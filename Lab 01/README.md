@@ -54,7 +54,7 @@ title(' y(n) ');
 
 
 ### Output:
-<img width="400" alt="Output1" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2001/convolution.png">
+<img width="400" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2001/convolution.png">
 
 ### Discussion: 
 From this experiment we have calculated convolution without using default ‘conv’ function. The process shown above is direct sum approach inheriting from basic formula of convolution. As we got same theoretical and experimental value so our experiment was successful without any error.
