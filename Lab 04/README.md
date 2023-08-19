@@ -39,7 +39,7 @@ delay_seconds = delay_sample/Fs
 ```
 
 ### Output:
-<img width="500" src="">
+<img width="500" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2004/identify_delay.png">
 
 ### Discussion: 
 In this experiment we have implemented correlation to identify the time delay of signals. We got 
