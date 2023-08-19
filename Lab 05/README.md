@@ -110,9 +110,9 @@ grid
 ```
 <b> Output:</b>
 <br> 
-   ![Output](src/inverse.png)
-   <br>
-   ![Output](src/inverse2.png)
+<img width="360" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/inverse_z_result.png">
+<img width="380" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/non-causal_ROC.png">
+   
    <br>
 
 ## <b>Discussion:</b>
