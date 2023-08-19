@@ -1,12 +1,15 @@
 
-# Lab_Reports
+# Lab Reports
 ## Course code : 4124
 ## Course Name: Digital Signal Processing Sessional
 
 ### Submitted to:
-*Hafsa Binte Kibria,*
-*Lecturer,*
-*Dept. of ECE*                                                                                                     
+*Hafsa Binte Kibria*
+<br>
+*Lecturer*
+<br>
+*Dept. of ECE* 
+<br>
 *RUET*
 
 ### Submitted by:	
