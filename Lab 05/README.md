@@ -42,10 +42,9 @@ grid
 ```
 <b>Output:</b>
 <br>
-<img width="926" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_result.png">
-![Output](src/causal.png)
-<br>
-![Output](src/causal2.png)
+<img width="330" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_result.png">
+<img width="330" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_ROC.png">
+
   <br>
    
 <b>Anti-Causal System:</b>
