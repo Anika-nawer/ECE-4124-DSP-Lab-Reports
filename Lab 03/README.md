@@ -12,56 +12,75 @@ The correlation[1] of two functions or signals or waveforms is defined as the me
 * Autocorrelation
 * Cross-correlation
 <br>
-**Autocorrelation:** The autocorrelation function is defined as the measure of similarity or coherence between a signal and its time delayed version. Therefore, the autocorrelation is the correlation of a signal with itself.
+Autocorrelation:
 <br>
-*Cross-correlation:* The cross-correlation between two different signals or functions or waveforms is defined as the measure of similarity or coherence between one signal and the time-delayed version of another signal. The cross-correlation between two different signals indicates the degree of relatedness between one signal and the time-delayed version of another signal.
+The autocorrelation function is defined as the measure of similarity or coherence between a signal and its time delayed version. Therefore, the autocorrelation is the correlation of a signal with itself.
+<br>
+Cross-correlation:
+<br>
+The cross-correlation between two different signals or functions or waveforms is defined as the measure of similarity or coherence between one signal and the time-delayed version of another signal. The cross-correlation between two different signals indicates the degree of relatedness between one signal and the time-delayed version of another signal.
 
 ### Required software: MATLAB
-### code 1: Z-transform and inverse Z-transform of right-side signal:
-
-1. clc;
-2. close all;
-3. clear all;
-4.
-5. syms n;
-6. x = [1 2 3 4 5];
-7. l = length(x);
-8.
-9. trans = 0;
-10. z = sym('z');
-11. for i=0:l-1
-12. trans=trans+x(i+1).*z^(-i);
-13. end
-14.
-15. disp('Z-transform of right side signal:');
-16. disp(trans);
-17.
-18. f=iztrans(trans);
-19. disp('Inverse Z-transform of right side signal:');
-20. disp(f);
-
-### code 2: Z-transform and inverse Z-transform of left-side signal:
-1. clc;
-2. close all;
-3. clear all;
-4.
-5. syms n;
-6. x = [1 2 3 4 5];
-7. y = fliplr(x);
-8. l = length(y);
-9.
-10. trans = 0;
-11. z = sym('z');
-12. for i=0:l-1
-13. trans=trans+y(i+1).*z^(i);
-14. end
-15.
-16. disp('Z-transform of left side signal:');
-17. disp(trans);
-18.
-19. f=iztrans(trans);
-20. disp('Inverse Z-transform of left side signal:');
-21. disp(f);
+### code: 
+i) Autocorrelation:
+``` matlab
+clc ;
+clear all ;
+x=input ('x') ;
+m1=length ( x ) ;
+ln=m1+m1-1;
+y=[x,zeros(1,(m1-1))];
+n=ln;
+while(n>=1)
+    r(ln-n+1)=0;
+    j=n;
+    i=m1;
+    while(i>=1 && j>=1)
+        r(ln-n+1)=r(ln-n+1)+x(i)*y(j);
+        j=j-1;
+        i=i-1;
+    end
+    n=n-1;
+end
+subplot(2,1,1);
+stem(x);
+title('signal x');
+subplot(2,1,2);
+stem(r);
+title('autocorrelated signal');
+```
+### Output
+<img width="681" alt="ztrans_left_output" src="">
+### code:
+ii) Cross-correlation: 
+``` matlab
+clc ;
+clear all ;
+x = input ('input signal X:') ;
+y = input ('input signal Y:') ;
+m1 = length ( x ) ;
+m2 = length ( y ) ;
+len = m1 + m2 -1;
+y =[y,zeros(1,( m1 -1))];
+n = len ;
+while (n >=1)
+r ( len - n +1) =0; j = n ; i = m1 ;
+while (i >=1 && j >=1)
+r ( len - n +1) = r ( len - n +1) + x ( i ) * y ( j ) ;
+j =j -1; i =i -1;
+end
+n =n -1;
+end
+subplot(3,1,1);
+stem(x);
+title('signal x');
+subplot(3,1,2);
+stem(y);
+title('signal y');
+subplot(3,1,3);
+stem(r);
+title('Cross-correlated signal');
+```
 
 ### code 3: Z-transform and inverse Z-transform of non-causal signal:
 1. clc;
@@ -103,8 +122,7 @@ The correlation[1] of two functions or signals or waveforms is defined as the me
 37. disp('Inverse Z-transform of non-causal signal:');
 38. disp(f);
 
-### Output 1
-<img width="681" alt="ztrans_left_output" src="https://github.com/Nafia-Shishir/Lab_Reports-4124-1810033/assets/68279387/91ca4b2c-4658-4713-b6f4-aefc850e98b8">
+
 
 ### Output 2
 <img width="835" alt="Ztrans_right_output" src="https://github.com/Nafia-Shishir/Lab_Reports-4124-1810033/assets/68279387/14154491-3fef-4ec8-951b-22809b339a27">
