@@ -45,6 +45,31 @@ title('Signal y');
 <img width="400" alt="output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/circular_convolution.png">
 
 (ii) Plotting, summation and subtraction of two discrete signal:
+``` matlab
+clc;
+clear all;
+n1=[0,0,0,2,2,2,1,1,1,0,2];
+n2=[2,2,0,1,1,1,0,0,0,0,3];
+sum=n1+n2;
+sub=n1-n2;
+subplot(4,1,1);
+stem(n1);
+title('Signal n1');
+subplot(4,1,2);
+stem(n2);
+title('Signal n2');
+subplot(4,1,3);
+stem(sum);
+title('Signal sum');
+subplot(4,1,4);
+stem(sub);
+title('Signal sub');
+```
+### Output 
+<img width="420" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/construct_draw.png">
+
+
+
 ```matlab
 clc;
 clear all;
