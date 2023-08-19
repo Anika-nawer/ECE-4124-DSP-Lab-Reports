@@ -9,13 +9,12 @@ The main objective of this experiment is to learn about correlation and to imple
 ### Theory:
 The correlation[1] of two functions or signals or waveforms is defined as the measure of similarity between those signals. There are two types of correlations –
 <br>
-•	Autocorrelation
+* Autocorrelation
+* Cross-correlation
 <br>
-•	Cross-correlation
+**Autocorrelation:** The autocorrelation function is defined as the measure of similarity or coherence between a signal and its time delayed version. Therefore, the autocorrelation is the correlation of a signal with itself.
 <br>
-Autocorrelation:The autocorrelation function is defined as the measure of similarity or coherence between a signal and its time delayed version. Therefore, the autocorrelation is the correlation of a signal with itself.
-<br>
-Cross-correlation: The cross-correlation between two different signals or functions or waveforms is defined as the measure of similarity or coherence between one signal and the time-delayed version of another signal. The cross-correlation between two different signals indicates the degree of relatedness between one signal and the time-delayed version of another signal.
+*Cross-correlation:* The cross-correlation between two different signals or functions or waveforms is defined as the measure of similarity or coherence between one signal and the time-delayed version of another signal. The cross-correlation between two different signals indicates the degree of relatedness between one signal and the time-delayed version of another signal.
 
 ### Required software: MATLAB
 ### code 1: Z-transform and inverse Z-transform of right-side signal:
