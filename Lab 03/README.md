@@ -85,7 +85,7 @@ title('Cross-correlated signal');
 ```
 
 ### Output:
-<img width="835" alt="Ztrans_right_output" src="">
+<img width="400" height="340" alt="Ztrans_right_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2003/cross_correlation.png">
 
 
 ### Discussion: 
