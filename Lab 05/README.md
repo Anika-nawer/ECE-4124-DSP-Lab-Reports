@@ -42,8 +42,8 @@ grid
 ```
 <b>Output:</b>
 <br>
-<img width="330" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_result.png">
-<img width="380" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_ROC.png">
+<img width="330" height="350" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_result.png">
+<img width="380" height="350" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/causal_ROC.png">
 
   <br>
    
@@ -65,8 +65,8 @@ grid
 ```
 <b>Output:</b>
 <br>
-<img width="360" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/anti-causal_result.png">
-<img width="380" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/anticausal_ROC.png">
+<img width="360" height="350"  src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/anti-causal_result.png">
+<img width="380" height="350"  src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/anticausal_ROC.png">
   <br>
    
  <b>Non-Causal System:</b>
@@ -88,8 +88,8 @@ grid
 ```
 <b>Output:</b>
 <br>
-<img width="360" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/non-causal_result.png">
-<img width="380" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/non-causal_ROC.png">
+<img width="360" height="350"  src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/non-causal_result.png">
+<img width="380" height="350"  src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/non-causal_ROC.png">
  <br>
 
 <b>inverse Z-transform:</b>
@@ -110,8 +110,8 @@ grid
 ```
 <b> Output:</b>
 <br> 
-<img width="360" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/inverse_z_result.png">
-<img width="380" height="350" alt="ztrans_noncausal_output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/inverse_z_ROC.png">
+<img width="360" height="350"  src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/inverse_z_result.png">
+<img width="380" height="350"  src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2005/inverse_z_ROC.png">
    
    <br>
 
