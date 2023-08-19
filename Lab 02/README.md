@@ -42,7 +42,7 @@ title('Signal y');
 
 ```
 ### Output 
-<img width="400" alt="output" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/circular_convolution.png">
+<img width="400" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/circular_convolution.png">
 
 (ii) Plotting, summation and subtraction of two discrete signal:
 ``` matlab
@@ -65,10 +65,10 @@ subplot(4,1,4);
 stem(sub);
 title('Signal sub');
 ```
-### Output 
-<img width="420" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/construct_draw.png">
+### Output: 
+<img width="420" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/sum_sub.png">
 
-
+(iii) Constructing and drawing two signals:
 
 ```matlab
 clc;
@@ -95,8 +95,8 @@ subplot(2,1,2);
 plot(coor1(:,1),coor1(:,2));
 
 ```
-### Output 
-<img width="420" alt="Output2" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/construct_draw.png">
+### Output: 
+<img width="420" src="https://github.com/Anika-nawer/ECE-4124-DSP-Lab-Reports/blob/main/Lab%2002/construct_draw.png">
 
 ### Discussion: 
 From this experiment we have calculated circular convolution without using any default function. As we got same theoretical and experimental value so our implementation was right. We have also done summation and subtraction of two signals and have plotted them.  And lastly we have constructed signals and have plotted them. As we got same theoretical and experimental value so our experiment was successful without any error. 
