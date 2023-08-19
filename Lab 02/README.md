@@ -5,7 +5,7 @@
 <br>
 (ii) Plotting the summation and subtraction of two discrete signals on   MATLAB. 
 <br>
-(iii) Constructing two signals draw them on MATLAB.
+(iii) Constructing two signals & draw them on MATLAB.
 ### Objective:
 The main objective of this experiment is to find the circular convolution of the input sequence and to learn summation and subtraction of two signals and to construct figure from signals on MATLAB.
 ### Theory:
